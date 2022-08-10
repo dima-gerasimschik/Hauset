@@ -57,6 +57,12 @@ body {
 
 #header-container #header-logo {
     margin-left: 30px;
+    transition: 0.3s linear;
+}
+
+#header-container #header-logo:hover {
+transform: translate3d(21px, 27px, 38px);
+transition: 0.3s linear;
 }
 
 #header-menu {
@@ -77,6 +83,21 @@ body {
     font-family: 'Uni Neue', sans-serif;
     font-size: 16px;
     color: #282828;
+    border: 1px solid transparent;
+    transition: 0.3s ease;
+     border-radius: 5px;
+}
+
+#header-container #header-menu a:hover {
+    box-sizing: border-box;
+        padding: 5px;
+        transition: 0.3s;
+        background-color: #cfcfce;
+        color: #fad537;
+        box-shadow: 0 10px 15px -5px #c9c9c9;
+        transform: scale(1.1);
+        border: 1px solid transparent;
+        border-radius: 5px;
 }
 
 #header-container #header-menu .menu-item .menu-phone {
@@ -92,6 +113,20 @@ body {
     outline: 0;
     padding: 4px 0 0 0;
     cursor: pointer;
+    transition: 0.3s ease;
+       border-radius: 5px;
+}
+
+#header-container #header-menu .menu-item .menu-bnt button:hover {
+    box-sizing: border-box;
+        padding: 5px;
+        transition: 0.3s;
+        background-color: #9d9d82;
+        color: #fad537;
+        box-shadow: 0 10px 15px -5px #c9c9c9;
+        transform: scale(1.1);
+        border: 1px solid transparent;
+        border-radius: 5px;
 }
 
 #main {
@@ -144,6 +179,20 @@ body {
     background: #FAD537;
     border-radius: 10px;
     border: 0px;
+    transition: 0.3s ease;
+        border-radius: 5px;
+}
+
+.bnt button:hover {
+    box-sizing: border-box;
+        padding: 5px;
+        transition: 0.3s;
+        background-color: #9d9d82;
+        color: #fad537;
+        box-shadow: 0 10px 15px -5px #c9c9c9;
+        transform: scale(1.1);
+        border: 1px solid transparent;
+        border-radius: 5px;
 }
 
 #offer {
@@ -402,7 +451,7 @@ li::marker {
     float: left;
     width: 9px;
     height: 9px;
-    color: #FAD537;
+       color: #FAD537;
     border-radius: 50%;
 }
 
@@ -519,6 +568,20 @@ li::marker {
     color: #171714;
     border: 0;
     margin: 20px 0;
+    transition: 0.3s ease;
+        border-radius: 5px;
+}
+
+.bnt-more button:hover {
+box-sizing: border-box;
+    padding: 5px;
+    transition: 0.3s;
+    background-color: #9d9d82;
+    color: #fad537;
+    box-shadow: 0 10px 15px -5px #c9c9c9;
+    transform: scale(1.1);
+    border: 1px solid transparent;
+    border-radius: 5px;
 }
 
 .bnt button {
@@ -601,6 +664,19 @@ li::marker {
     line-height: 130%;
     text-decoration: none;
     color: #171714;
+    transition: 0.3s linear;
+}
+
+#footer #footer-container .footer-contacts .footer-contacts-item .footer-contacts-text a:hover {
+box-sizing: border-box;
+    padding: 5px;
+    transition: 0.3s;
+    background-color: #9d9d82;
+    color: #fad537;
+    box-shadow: 0 10px 15px -5px #c9c9c9;
+    transform: scale(1.1);
+    border: 1px solid transparent;
+    border-radius: 5px;
 }
 
 #footer #footer-container .footer-contacts .footer-contacts-item {
